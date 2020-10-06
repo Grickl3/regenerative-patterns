@@ -18,6 +18,78 @@
 	<h1>Hello, World!</h1>
 	<p>This is the beginning of the interface for the regenerative changemaking pattern deck.</p>
 
+	<div class="ui__control-panel">
+		
+		<input id="all-cards" class="ui__card-type__button" type="button" value="all">
+
+       <input id="clear-cards" class="ui__card-type__button" type="button" value="clear">
+
+		<div  class="ui__card-type__checkboxes">
+			<div class="ui__card-type__checkbox">
+				<input type="checkbox" id="vision" name="vision" checked>
+				<label for="vision">Vision for a Permanent Culture</label>
+			</div>
+
+			<div class="ui__card-type__checkbox">
+				<input type="checkbox" id="justice" name="justice">
+				<label for="justice">Patterns of Justice and Resistance</label>
+			</div>
+
+			<div class="ui__card-type__checkbox">
+				<input type="checkbox" id="organizations" name="organizations">
+				<label for="organizations">Organizations that Live</label>
+			</div>
+
+			<div class="ui__card-type__checkbox">
+				<input type="checkbox" id="economics" name="economics">
+				<label for="economics">Envisioning the Ecommony</label>
+			</div>
+
+			<div class="ui__card-type__checkbox">
+				<input type="checkbox" id="warriorship" name="warriorship">
+				<label for="warriorship">Training the Sacred Warrior</label>
+			</div>
+		</div><!-- CARD TYPE SELECTOR -->
+
+	</div><!-- CONTROL PANEL -->
+
+<script type="text/javascript">
+	
+	// CARD TYPE SELECTOR
+
+		const allCards = document.getElementById("all-cards");
+		const clearCards = document.getElementById("clear-cards");
+
+
+		const vision = document.getElementById("vision");
+		const justice = document.getElementById("justice");
+		const organizations = document.getElementById("organizations");
+		const economics = document.getElementById("economics");
+		const warriorship = document.getElementById("warriorship");
+
+		allCards.addEventListener("click", function() {
+			vision.checked = true;
+			justice.checked = true;
+			organizations.checked = true;
+			economics.checked = true;
+			warriorship.checked = true;
+		});
+
+		clearCards.addEventListener("click", function() {
+			vision.checked = false;
+			justice.checked = false;
+			organizations.checked = false;
+			economics.checked = false;
+			warriorship.checked = false;
+		});
+
+</script>
+
+
+
 
 </body>
 </html>
+
+
+
