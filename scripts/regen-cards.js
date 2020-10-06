@@ -17,7 +17,7 @@ let shoeBox = [];
 	let theLongGame = new Card("The Long Game", 1, "Meaningful change is a long process, often outlasting our own lifespans. Practice and recognize the importance of small victories.", "vision", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(theLongGame);
 
-	let biophilia = new Card("Biophilia", 2, "Humans coevolved with other species, and we are not whole without their presence", "vision", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	let biophilia = new Card("Biophilia", 2, "Humans coevolved with other species, and we are not whole without their presence.", "vision", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(biophilia);
 
 	let interdependentCommunities = new Card("Interdependent Communities", 3, "Authentic communities are ones that need each  other.", "vision", "Adam Brock", ["question 1", "question 2", "question 3"]);
@@ -50,7 +50,7 @@ let shoeBox = [];
 	let multitudesOfKnowing = new Card("Multitudes of Knowing", 12, "Scientific inquiry a powerful framework for  understanding our world. But it’s only one of  several such frameworks, all of which must be  employed and honored.", "vision", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(multitudesOfKnowing);
 
-	let fearBurnsBright = new Card("Fear Burns Bright, Hope Burns Long", 13, "Fear is a powerful catalyst to get us moving—but  hope for a better future will keep us motivated  much longer.", "vision", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	let fearBurnsBright = new Card("Fear Burns Bright, Hope Burns Long", 13, "Fear is a powerful catalyst to get us moving — but  hope for a better future will keep us motivated  much longer.", "vision", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(fearBurnsBright);
 
 	let theCreativeProcess = new Card("Design Tool: The Creative Process", 14, "Healing communities is a creative act, and every  creative discipline follows similar rhythms of  setting goals, observing context, developing  designs, putting designs into action, and learning  from the results.", "vision", "Adam Brock", ["question 1", "question 2", "question 3"]);
@@ -247,7 +247,7 @@ let shoeBox = [];
 	let knowYourCommunity = new Card("Know Your Community", 75, "Successful solutions emerge from a deep and  thoughtful engagement with the people involved  in the system.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(knowYourCommunity);
 
-	let actionsNotIntentions = new Card("Actions, NotIntentions", 76, "Good intentions are a dime a dozen, but they do  little to actually change the oppressive systems  that surround us.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	let actionsNotIntentions = new Card("Actions, Not Intentions", 76, "Good intentions are a dime a dozen, but they do  little to actually change the oppressive systems  that surround us.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(actionsNotIntentions);
 
 	let iSites = new Card("iSites", 77, "Natural systems are best understood by observing how they change over time. Pick a  convenient, quiet location that’s relatively undisturbed by human activity, and return to it  on a regular basis for solace and inspiration.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
