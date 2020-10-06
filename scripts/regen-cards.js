@@ -221,26 +221,52 @@ let shoeBox = [];
 	let communitySupportedEnterprise = new Card("Community Supported Enterprise", 67, "The best way to ensure that a business is meeting a real need, and keeping itself accountable to its community, is to have the customers become the investors.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(communitySupportedEnterprise);
 
-	let theGift = new Card("The Gift", 68, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
-	shoeBox.push(theGift);
+	let employeeOwnership = new Card("Employee Ownership", 68, "Imbuing a company’s employees with the power of collective ownership often leads to higher wages, better business decision making and many other benefits.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(employeeOwnership);
 
-	let theGift = new Card("The Gift", 69, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
-	shoeBox.push(theGift);
+	let dynamicPricing = new Card("Dynamic Pricing", 69, "The relative affordability of basic goods and services can differ drastically from person to person. A flexible pricing system avoids pricing out the underserved, while maximizing revenue for those than can afford to pay more.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(dynamicPricing);
 
-	let theGift = new Card("The Gift", 70, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
-	shoeBox.push(theGift);
+	let capitalAnalysis = new Card("Design Tool: Capital Analysis", 70, "Each community and institution has a unique set of strengths and resources available to it. Capital analysis helps the designer systematically inventory a group’s relative areas of wealth and impoverishment.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(capitalAnalysis);
 
-	let theGift = new Card("The Gift", 71, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
-	shoeBox.push(theGift);
+	let businessModelCanvas = new Card("Design Tool: Business Model Canvas", 71, "Just like landscape designs, businesses can benefit  from conceptual “basemaps.” The business model  canvas provides a flexible backdrop for quickly prototyping entrepreneurial ideas.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(businessModelCanvas);
 
 // TRAINGING THE SACRED WARRIOR
 
-	let sacredActivism = new Card("Sacred Activism", "72", "We are each called to play a part in transforming our society. It's our job to figure out what is being asked of us and to develop the skills to do it well.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	let sacredActivism = new Card("Sacred Activism", 72, "We are each called to play a part in transforming our society. It's our job to figure out what is being asked of us and to develop the skills to do it well.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(sacredActivism);
 
 	let rightLivelihood = new Card("Right Livelihood", 73, "Paying the bills while maintaining your ethical integrity can sometimes seem impossible, but there are a number of strategies for finding a healthy balance between the two.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(rightLivelihood);
 
+	let spiralsOfAbundance = new Card("Spirals of Abundance", 74, "Identify the behaviors that lead to unhealthy feedback loops in your own lifestyle, and work to shift them to create cycles of positive behavior.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(spiralsOfAbundance);
+
+	let knowYourCommunity = new Card("Know Your Community", 75, "Successful solutions emerge from a deep and  thoughtful engagement with the people involved  in the system.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(knowYourCommunity);
+
+	let actionsNotIntentions = new Card("Actions, NotIntentions", 76, "Good intentions are a dime a dozen, but they do  little to actually change the oppressive systems  that surround us.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(actionsNotIntentions);
+
+	let iSites = new Card("iSites", 77, "Natural systems are best understood by observing how they change over time. Pick a  convenient, quiet location that’s relatively undisturbed by human activity, and return to it  on a regular basis for solace and inspiration.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(iSites);
+
+	let unplugging = new Card("Unplugging", 78, "In a world where connection and meaning are increasingly mediated by motors, touchscreens and hero worship, we must make a conscious effort to remove ourselves from these influences on a regular basis.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(unplugging);
+
+	let commitmentPrunning = new Card("Commitment Prunning", 79, "Take time to reflect the projects and people that you’re invested in — and don’t be afraid to cut back those commitments that are no longer serving you.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(commitmentPrunning);
+
+	let reduceTheNeedToEarn = new Card("Reduce the Need to Earn", 80, "Dethroning the Antimarkets starts at home. To the extent that it’s realistic in your life, make choices that keep you debt-free and with minimal monthly expenses.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(reduceTheNeedToEarn);
+
+	let personalMythology = new Card("Personal Mythology", 81, "Use the motifs of your own heritage and life path to create meaning from the present and direction for your future.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(personalMythology);
+
+	let personalVision = new Card("Personal Vision", 82, "Each one of us must cultivate our own vision of a more perfect world in order to bring that vision about.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(personalVision);
 
 // DRAWING A CARD
 
