@@ -189,7 +189,6 @@ let shoeBox = [];
 	let teamAnalysis = new Card("Design Tool: Team Analysis", 57, "Successful people polycultures require a balanced team of members that trust one another. Using team analysis, we can investigate the strengths and challenges of our collaborative groups.", "organizations", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(teamAnalysis);
 
-
 // ENVISIONING THE ECOMMONY
 
 	let theGift = new Card("The Gift", 58, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
@@ -197,6 +196,42 @@ let shoeBox = [];
 
 	let heirloomCurrencies = new Card("Heirloom Currencies", 59, "No one currency can adequately serve the many needs we have for exchange. Encourage a multiplicity of currencies, each one intentionally designed to meet a specific need.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(heirloomCurrencies);
+
+	let financialRamPumps = new Card("Financial Ram Pumps", 60, "Central currencies like the dollar are designed to flow toward inequality, but skillful interventions can sometimes reverse part of that flow to achieve more beneficial aims.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(financialRamPumps);
+
+	let debtForgiveness = new Card("Debt Forgiveness", 61, "Interest-bearing loans are a powerful economic catalyst— and, nearly as frequently, a brutal tool of oppression. A periodic clearing of the accounts keep debt’s darker sides in check.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(debtForgiveness);
+
+	let householdEconomies = new Card("Household Economies", 62, "In most ecologically-literate societies, many of the  community’s essential needs are met at the family scale, within the home. These household services should be respected and encouraged.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(householdEconomies);
+
+	let smallBusiness = new Card("Small Business", 63, "Entrepreneurship is a primary indicator of a thriving local economy. Small businesses are more flexible and adaptive to change than large ones, and are more accountable to the communities of which they are a part.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(smallBusiness);
+
+	let importSubstitution = new Card("Import Substitution", 64, "As local networks of cottage industry and small business reach a critical mass, they can lead communities to greater and greater levels of economic self-sufficiency", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(importSubstitution);
+
+	let regenerativeEnterprise = new Card("Regenerative Enterprise", 65, "Generating income and making a positive social  impact need not be mutually exclusive. Many of the most robust and resilient organizations are ones that manage to do both.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(regenerativeEnterprise);
+
+	let xericEnterprise = new Card("xericEnterprise", 66, "Keeping overhead costs low reduces a business’ exposure to changing market forces, allowing it to survive the lean times while thriving during good ones.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(xericEnterprise);
+
+	let communitySupportedEnterprise = new Card("Community Supported Enterprise", 67, "The best way to ensure that a business is meeting a real need, and keeping itself accountable to its community, is to have the customers become the investors.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(communitySupportedEnterprise);
+
+	let theGift = new Card("The Gift", 68, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(theGift);
+
+	let theGift = new Card("The Gift", 69, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(theGift);
+
+	let theGift = new Card("The Gift", 70, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(theGift);
+
+	let theGift = new Card("The Gift", 71, "The gift is the currency of love. It is the most ancient form of exchange and forms the glue of interdependent communities.", "economics", "Adam Brock", ["question 1", "question 2", "question 3"]);
+	shoeBox.push(theGift);
 
 // TRAINGING THE SACRED WARRIOR
 
