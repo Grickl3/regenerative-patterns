@@ -52,65 +52,70 @@ let shoeBox = [];
 	let rightLivelihood = new Card("Right Livelihood", 73, "Paying the bills while maintaining your ethical integrity can sometimes seem impossible, but there are a number of strategies for finding a healthy balance between the two.", "warriorship", "Adam Brock", ["question 1", "question 2", "question 3"]);
 	shoeBox.push(rightLivelihood);
 
-function getRandomInt(min, max) {
-  min = Math.ceil(0);
-  max = Math.floor(shoeBox.length);
-  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
-}
 
-const cutCards = function() {
+// DRAWING A CARD
 
-	let deck = [];
-
-	function stackDeck() {
-		if (vision.checked === true) {
-			shoeBox.forEach(function(card){
-				if(card.type === "vision") {
-					deck.push(card);
-				}
-			});
-		}
-		if (justice.checked === true) {
-			shoeBox.forEach(function(card){
-				if(card.type === "justice") {
-					deck.push(card);
-				}
-			});
-		}
-		if (organizations.checked === true) {
-			shoeBox.forEach(function(card){
-				if(card.type === "organizations") {
-					deck.push(card);
-				}
-			});
-		}
-		if (economics.checked === true) {
-			shoeBox.forEach(function(card){
-				if(card.type === "economics") {
-					deck.push(card);
-				}
-			});
-		}
-		if (warriorship.checked === true) {
-			shoeBox.forEach(function(card){
-				if(card.type === "warriorship") {
-					deck.push(card);
-				}
-			});
-		}
+	function getRandomInt(min, max) {
+	  min = Math.ceil(0);
+	  max = Math.floor(shoeBox.length);
+	  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 	}
-	stackDeck();
 
-	return deck;
-};
+	const cutCards = function() {
 
-const drawCard = function() {
+		let deck = [];
 
-	const deck = cutCards();
+		function stackDeck() {
+			if (vision.checked === true) {
+				shoeBox.forEach(function(card){
+					if(card.type === "vision") {
+						deck.push(card);
+					}
+				});
+			}
+			if (justice.checked === true) {
+				shoeBox.forEach(function(card){
+					if(card.type === "justice") {
+						deck.push(card);
+					}
+				});
+			}
+			if (organizations.checked === true) {
+				shoeBox.forEach(function(card){
+					if(card.type === "organizations") {
+						deck.push(card);
+					}
+				});
+			}
+			if (economics.checked === true) {
+				shoeBox.forEach(function(card){
+					if(card.type === "economics") {
+						deck.push(card);
+					}
+				});
+			}
+			if (warriorship.checked === true) {
+				shoeBox.forEach(function(card){
+					if(card.type === "warriorship") {
+						deck.push(card);
+					}
+				});
+			}
+		}
+		stackDeck();
 
-	const selection = Math.floor(Math.random() * deck.length);
-	console.log(selection, deck[selection]);
-}
+		return deck;
+	};
+
+	const drawCard = function() {
+
+		const deck = cutCards();
+
+		const selection = Math.floor(Math.random() * deck.length);
+		// console.log(selection, deck[selection]);
+
+		return deck[selection];
+	}
 
 
 

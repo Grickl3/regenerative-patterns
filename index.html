@@ -17,8 +17,8 @@
 </head>
 <body>
 
-	<h1>Hello, World!</h1>
-	<p>This is the beginning of the interface for the regenerative changemaking pattern deck.</p>
+	<h1>Patterns for Regenerative Changemaking</h1>
+	<p>This is the beginning of the interface for the regenerative changemaking pattern deck. This pattern language was originally developed by Adam Brock and published in <a href="https://www.adambrock.me/product/change-here-now/" target="_blank">Change Here Now</a>.</p>
 
 	<div class="ui__control-panel">
 		
@@ -53,7 +53,21 @@
 			</div>
 		</div><!-- CARD TYPE SELECTOR -->
 
+		<div class="ui__draw-button">
+			<input id="draw-button" type="button" name="draw-button" value="Draw Card">
+		</div>
+
 	</div><!-- CONTROL PANEL -->
+
+	<div class="layout__card-area">
+		<h2 id="card-title" class="type__card-title"></h2>
+		<p id="pattern-author"class="type__pattern-author" ></p>
+		<p id="card-description" class="type__card-description"></p>
+		<h3 id="questions-heading" class="layout__hidden">Questions to Ponder</h3>
+		<p id="question-1" class="type__question"></p>
+		<p id="question-2" class="type__question"></p>
+		<p id="question-3" class="type__question"></p>
+	</div><!-- CARD AREA -->
 
 <script type="text/javascript">
 	
@@ -83,6 +97,35 @@
 			organizations.checked = false;
 			economics.checked = false;
 			warriorship.checked = false;
+		});
+
+	// ASSEMBLE CARD DISPLAY AREA
+
+		const cardTitle = document.getElementById("card-title");
+		const cardDescription = document.getElementById("card-description");
+		const patternAuthor = document.getElementById("pattern-author");
+		const questionsHeading = document.getElementById("questions-heading");
+		const question1 = document.getElementById("question-1");
+		const question2 = document.getElementById("question-2");
+		const question3 = document.getElementById("question-3");		
+
+	// DRAW CARD
+
+		const drawButton = document.getElementById("draw-button");
+
+		drawButton.addEventListener("click", function() {
+			let card = drawCard();
+
+			console.log(card);
+
+			cardTitle.innerText = card.pattern;
+			patternAuthor.innerText = card.author;
+			cardDescription.innerText = card.description;
+			questionsHeading.classList.remove("layout__hidden");
+			question1.innerText = card.questions[0];
+			question2.innerText = card.questions[1];
+			question3.innerText = card.questions[2];
+
 		});
 
 </script>
