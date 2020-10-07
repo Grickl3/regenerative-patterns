@@ -17,62 +17,89 @@
 	<link rel="stylesheet" type="text/css" href="styles/layout.css">
 
 	<script type="text/javascript" src="scripts/regen-cards.js" ></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-	<h1>Patterns for Regenerative Changemaking</h1>
-	<p>Broaden your social design palette with this pattern language originally published by Adam Brock in his 2017 release, <a href="https://www.adambrock.me/product/change-here-now/" target="_blank">Change Here Now</a>. Grab a copy for a more robust explanation and a read that will leave you truly believing that we can solve our own problems.</p>
+	<div class="layout__content-area">
+		<div class="layout__heading">
+			<h1>Patterns for Regenerative Changemaking</h1>
+			<p>Broaden your social design palette with this pattern language originally published by Adam Brock in his 2017 release, <a href="https://www.adambrock.me/product/change-here-now/" target="_blank">Change Here Now</a>. Grab a copy for a more robust explanation and a read that will leave you truly believing that we can solve our own problems.</p>
 
-	<p>Each pattern is assigned to a <em>deck</em> which corresponds to its domain in social design. Just select the pattern types which pertain to your project and those decks will automatically shuffle themselves together. Then mash that <em>Draw Card</em> button. You'll get a randomly selected pattern to contemplate in the context of your project.</p>
+			<p>Each pattern is assigned to a <em>deck</em> which corresponds to its domain in social design. Just select the pattern types which pertain to your project and those decks will automatically shuffle themselves together. Then mash that <em>Draw Card</em> button. You'll get a randomly selected pattern to contemplate in the context of your project.</p>
+		</div><!-- HEADING -->
 
-	<div class="ui__control-panel">
-		
-		<input id="all-cards" class="ui__card-type__button" type="button" value="all">
+		<div class="layout__medium-space"></div>
 
-       <input id="clear-cards" class="ui__card-type__button" type="button" value="clear">
+		<div class="ui__control-panel layout__control-panel">
 
-		<div  class="ui__card-type__checkboxes">
-			<div class="ui__card-type__checkbox">
-				<input type="checkbox" id="vision" name="vision" checked>
-				<label for="vision">Vision for a Permanent Culture</label>
+			<div class="ui__top-buttons">
+				<div id="all-cards" class="ui__card-type__button">
+					<span class="type__button">all</span>
+				</div><!-- ALL BUTTON -->
+
+				<div id="clear-cards" class="ui__card-type__button">
+					<span class="type__button">clear</span>
+				</div><!-- CLEAR BUTTON -->
+			</div><!-- TOP BUTTONS -->
+
+			<div  class="ui__card-type__checkboxes">
+				<div class="ui__card-type__checkbox">
+					<input type="checkbox" id="vision" name="vision" checked>
+					<label class="type__input-label" for="vision">Vision for a Permanent Culture</label>
+				</div>
+
+				<div class="ui__card-type__checkbox">
+					<input type="checkbox" id="justice" name="justice" checked>
+					<label class="type__input-label" for="justice">Patterns of Justice and Resistance</label>
+				</div>
+
+				<div class="ui__card-type__checkbox">
+					<input type="checkbox" id="organizations" name="organizations" checked>
+					<label class="type__input-label" for="organizations">Organizations that Live</label>
+				</div>
+
+				<div class="ui__card-type__checkbox">
+					<input type="checkbox" id="economics" name="economics" checked>
+					<label class="type__input-label" for="economics">Envisioning the Ecommony</label>
+				</div>
+
+				<div class="ui__card-type__checkbox">
+					<input type="checkbox" id="warriorship" name="warriorship" checked>
+					<label class="type__input-label" for="warriorship">Training the Sacred Warrior</label>
+				</div>
+			</div><!-- CARD TYPE SELECTOR -->
+
+			<div id="draw-button" class="ui__draw-button">
+				<span class="type__draw-button">Draw Card</span>
 			</div>
 
-			<div class="ui__card-type__checkbox">
-				<input type="checkbox" id="justice" name="justice" checked>
-				<label for="justice">Patterns of Justice and Resistance</label>
-			</div>
+		</div><!-- CONTROL PANEL -->
 
-			<div class="ui__card-type__checkbox">
-				<input type="checkbox" id="organizations" name="organizations" checked>
-				<label for="organizations">Organizations that Live</label>
-			</div>
+		<div class="layout__medium-space"></div>
 
-			<div class="ui__card-type__checkbox">
-				<input type="checkbox" id="economics" name="economics" checked>
-				<label for="economics">Envisioning the Ecommony</label>
-			</div>
+		<div class="layout__card-area">
+			<h2 id="card-title" class="type__card-title"></h2>
+			<p id="pattern-author" class="type__pattern-author"></p>
+			<p id="card-description" class="type__card-description"></p>
+			<h3 id="questions-heading" class="layout__hidden type__questions-header">Questions to Ponder</h3>
+			<p id="question-1" class="type__question"></p>
+			<p id="question-2" class="type__question"></p>
+			<p id="question-3" class="type__question"></p>
+		</div><!-- CARD AREA -->
+	</div><!-- CONTENT AREA -->
 
-			<div class="ui__card-type__checkbox">
-				<input type="checkbox" id="warriorship" name="warriorship" checked>
-				<label for="warriorship">Training the Sacred Warrior</label>
-			</div>
-		</div><!-- CARD TYPE SELECTOR -->
+	<div class="layout__large-space"></div>
+	<div class="layout__large-space"></div>
 
-		<div class="ui__draw-button">
-			<input id="draw-button" type="button" name="draw-button" value="Draw Card">
-		</div>
-
-	</div><!-- CONTROL PANEL -->
-
-	<div class="layout__card-area">
-		<h2 id="card-title" class="type__card-title"></h2>
-		<p id="pattern-author"class="type__pattern-author" ></p>
-		<p id="card-description" class="type__card-description"></p>
-		<h3 id="questions-heading" class="layout__hidden">Questions to Ponder</h3>
-		<p id="question-1" class="type__question"></p>
-		<p id="question-2" class="type__question"></p>
-		<p id="question-3" class="type__question"></p>
-	</div><!-- CARD AREA -->
+	<div class="layout__footer">
+		<a href="http://sqglz.com/" target="_blank"><div class="layout__logo-holder">
+			<img class="layout__sqg" src="img/sqglz.svg" alt="sqglz logo">
+		</div></a>
+	</div><!-- FOOTER -->
 
 <script type="text/javascript">
 	

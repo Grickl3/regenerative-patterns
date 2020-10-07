@@ -1,4 +1,65 @@
 
+body {
+	background-color: #71d0d3;
+	overflow-x: hidden;
+}
+
+.layout__content-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.layout__heading {
+	padding: 5px;
+	/*border: 1px solid gold;*/
+}
+
+.layout__control-panel {
+	padding: 5px;
+	/*border: 1px solid gold;*/
+}
+
+.layout__card-area {
+	padding: 30px;
+	background-color: #92e5e7;
+	border-radius: 15px;
+	border: 9px solid #eeeac4;
+}
 
 
+.layout__footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 0 -10px 0 -10px;
+	width: 100vw;
+	height: 60px;
+	background-color: white;
+}
+
+.layout__logo-holder {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transform: translateY(-30px);
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: white;
+}
+	.layout__logo-holder:hover {
+		cursor: pointer;
+		/*border: 1px solid #d49a00;*/
+	}
+
+.layout__sqg {
+	height: 40px;
+}
+
+
+.layout__small-space { width: 5px; height: 50px; }
+.layout__medium-space { width: 5px; height: 100px; }
+.layout__large-space { width: 5px; height: 200px; }
 .layout__hidden { display: none; }
